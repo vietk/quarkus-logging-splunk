@@ -44,7 +44,7 @@ public abstract class AbstractMockServerTest {
      * call.
      */
     protected void awaitMockServer() {
-        await().atMost(1, SECONDS).until(() -> httpServer.retrieveRecordedRequests(request()).length != 0);
+        await().atMost(10, SECONDS).until(() -> httpServer.retrieveRecordedRequests(request()).length != 0);
     }
 
     protected HttpRequest requestToJsonEndpoint() {

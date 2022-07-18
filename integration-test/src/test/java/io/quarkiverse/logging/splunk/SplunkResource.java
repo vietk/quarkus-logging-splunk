@@ -4,7 +4,7 @@ Contributor(s): Kevin Viet, Romain Quinio (Amadeus s.a.s.)
  */
 package io.quarkiverse.logging.splunk;
 
-import static org.testcontainers.containers.wait.strategy.Wait.*;
+import static org.testcontainers.containers.wait.strategy.Wait.forLogMessage;
 
 import java.time.Duration;
 import java.util.Collections;

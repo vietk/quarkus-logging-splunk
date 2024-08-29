@@ -54,6 +54,7 @@
     <module>runtime</module>
     <module>deployment</module>
     <module>integration-test</module>
+    <module>benchmarks</module>
     <module>docs</module>
   </modules>
   <repositories>
